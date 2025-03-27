@@ -7,6 +7,7 @@ using UnityEngine.AI;
 
 public enum DriveType { FrontWheelDrive, RearWheelDrive, AllWheelDrive}
 
+
 [RequireComponent(typeof(NavMeshObstacle))]
 [RequireComponent(typeof(Car_HealthController))]
 [RequireComponent(typeof(Car_Interaction))]
